@@ -1,6 +1,8 @@
 # Mod Description
 
-Makes items such as the Magic Mirror and the Ice Mirror to have a shorter animation - in other words, it makes them have a faster use time, much like using a Recall Potion.
+Makes the Magic Mirror, the Ice Mirror, and the Cellphone have a shorter animation and use time - in other words, it makes them faster to use, much like using a Recall Potion.
+
+Comes with a config for toggling Fast Recalls for the Mirrors and the Cellphone. Also allows adding custom items that will be faster, and changing the factor by which the items are sped up by.
 
 That's it.
 
