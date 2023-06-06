@@ -3,3 +3,10 @@ Makes the Magic Mirror, the Ice Mirror, and the Cellphone have a shorter animati
 Comes with a config for toggling Fast Recalls for the Mirrors and the Cellphone. Also allows adding custom items that will be faster, and changing the factor by which the items are sped up by.
 
 That's it.
+
+Changelog:
+1.1
+- Updated the mod to support tML for 1.4.4
+
+1.0
+- Initial release

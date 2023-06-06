@@ -1,27 +1,63 @@
 Mods: {
-    FastRecall: {
-        Config: {
-            Header: Config
-        
-            EnabledForMirrors: {
-                Label: "[i:50][i:3199] Toggle Fast Recalls for Mirrors"
-                Tooltip: Enables or disables Fast Recalls for Magic Mirror and Ice Mirror
-            }
-            
-            EnabledForCellphone: {
-                Label: "[i:3124] Toggle Fast Recalls for Cellphone"
-                Tooltip: Enables or disables Fast Recalls for Cellphone
-            }
-            
-            SpeedFactor: {
-                Label: "[i:4484] Speed Factor"
-                Tooltip: "Change the factor by which the items are sped up by.\nDefaults to 3 to match the vanilla mirror-like items with Recall Potions.\nSetting this to 1 will make the items normal speed."
-            }
-            
-            MirrorLikeItems: {
-                Label: "[i:1344] Extra Mirror-Like Items"
-                Tooltip: "You can add extra items which you want to use quicker here.\nNothing will stop you from adding non-mirror items here, play as you wish.\nI am not responsible if something breaks."
-            }
-        }
-    }
+	FastRecall: {
+		Config: {
+			Header: Config
+
+			EnabledForMirrors: {
+				Label: "[i:50][i:3199] Toggle Fast Recalls for Mirrors"
+				Tooltip: Enables or disables Fast Recalls for Magic Mirror and Ice Mirror
+			}
+
+			EnabledForCellphone: {
+				Label: "[i:3124] Toggle Fast Recalls for Cellphone"
+				Tooltip: Enables or disables Fast Recalls for Cellphone
+			}
+
+			SpeedFactor: {
+				Label: "[i:4484] Speed Factor"
+				Tooltip:
+					'''
+					Change the factor by which the items are sped up by.
+					Defaults to 3 to match the vanilla mirror-like items with Recall Potions.
+					Setting this to 1 will make the items normal speed.
+					'''
+			}
+
+			MirrorLikeItems: {
+				Label: "[i:1344] Extra Mirror-Like Items"
+				Tooltip:
+					'''
+					You can add extra items which you want to use quicker here.
+					Nothing will stop you from adding non-mirror items here, play as you wish.
+					I am not responsible if something breaks.
+					'''
+			}
+		}
+
+		Configs: {
+			Config: {
+				DisplayName: Config
+
+				EnabledForMirrors: {
+					Label: "{$Mods.FastRecall.Config.EnabledForMirrors.Label}"
+					Tooltip: "{$Mods.FastRecall.Config.EnabledForMirrors.Tooltip}"
+				}
+
+				EnabledForCellphone: {
+					Label: "{$Mods.FastRecall.Config.EnabledForCellphone.Label}"
+					Tooltip: "{$Mods.FastRecall.Config.EnabledForCellphone.Tooltip}"
+				}
+
+				SpeedFactor: {
+					Label: "{$Mods.FastRecall.Config.SpeedFactor.Label}"
+					Tooltip: "{$Mods.FastRecall.Config.SpeedFactor.Tooltip}"
+				}
+
+				MirrorLikeItems: {
+					Label: "{$Mods.FastRecall.Config.MirrorLikeItems.Label}"
+					Tooltip: "{$Mods.FastRecall.Config.MirrorLikeItems.Tooltip}"
+				}
+			}
+		}
+	}
 }
