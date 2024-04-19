@@ -5,6 +5,9 @@ Comes with a config for toggling Fast Recalls for the Mirrors and the Cellphone.
 That's it.
 
 Changelog:
+1.2
+- Default config support for the Conches and the Shellphone
+
 1.1
 - Updated the mod to support tML for 1.4.4
 

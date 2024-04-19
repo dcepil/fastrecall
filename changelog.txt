@@ -1,0 +1,9 @@
+Changelog:
+1.2
+- Default config support for the Conches and the Shellphone
+
+1.1
+- Updated the mod to support tML for 1.4.4
+
+1.0
+- Initial release

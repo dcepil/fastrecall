@@ -59,6 +59,60 @@ public class Items
         public override bool IsLoadingEnabled(Mod mod) => ModContent.GetInstance<Config>().EnabledForCellphone;
     }
 
+    public class MagicConch : MirrorLikeItem
+    {
+        public MagicConch() : base(itemId: ItemID.MagicConch)
+        {
+        }
+
+        public override bool IsLoadingEnabled(Mod mod) => ModContent.GetInstance<Config>().EnabledForConches;
+    }
+
+    public class DemonConch : MirrorLikeItem
+    {
+        public DemonConch() : base(itemId: ItemID.DemonConch)
+        {
+        }
+
+        public override bool IsLoadingEnabled(Mod mod) => ModContent.GetInstance<Config>().EnabledForConches;
+    }
+
+    public class ShellPhone : MirrorLikeItem
+    {
+        public ShellPhone() : base(itemId: ItemID.Shellphone)
+        {
+        }
+
+        public override bool IsLoadingEnabled(Mod mod) => ModContent.GetInstance<Config>().EnabledForShellphone;
+    }
+
+    public class ShellPhoneSpawn : MirrorLikeItem
+    {
+        public ShellPhoneSpawn() : base(itemId: ItemID.ShellphoneSpawn)
+        {
+        }
+
+        public override bool IsLoadingEnabled(Mod mod) => ModContent.GetInstance<Config>().EnabledForShellphone;
+    }
+
+    public class ShellPhoneOcean : MirrorLikeItem
+    {
+        public ShellPhoneOcean() : base(itemId: ItemID.ShellphoneOcean)
+        {
+        }
+
+        public override bool IsLoadingEnabled(Mod mod) => ModContent.GetInstance<Config>().EnabledForShellphone;
+    }
+
+    public class ShellPhoneUnderworld : MirrorLikeItem
+    {
+        public ShellPhoneUnderworld() : base(itemId: ItemID.ShellphoneHell)
+        {
+        }
+
+        public override bool IsLoadingEnabled(Mod mod) => ModContent.GetInstance<Config>().EnabledForShellphone;
+    }
+
     public class MirrorLikeItemFactory : MirrorLikeItem
     {
         private static IEnumerable<ItemDefinition> Items { get; } = ModContent.GetInstance<Config>().MirrorLikeItems;

@@ -13,6 +13,16 @@ Mods: {
 				Tooltip: Enables or disables Fast Recalls for Cellphone
 			}
 
+			EnabledForConches: {
+				Label: "[i:4263][i:4819] Toggle Fast Recalls for Conches"
+				Tooltip: Enables or disables Fast Recalls for Conches
+			}
+
+			EnabledForShellphone: {
+				Label: "[i:5358] Toggle Fast Recalls for Shellphone"
+				Tooltip: Enables or disables Fast Recalls for Shellphone
+			}
+
 			SpeedFactor: {
 				Label: "[i:4484] Speed Factor"
 				Tooltip:
@@ -46,6 +56,16 @@ Mods: {
 				EnabledForCellphone: {
 					Label: "{$Mods.FastRecall.Config.EnabledForCellphone.Label}"
 					Tooltip: "{$Mods.FastRecall.Config.EnabledForCellphone.Tooltip}"
+				}
+
+				EnabledForConches: {
+					Label: "{$Mods.FastRecall.Config.EnabledForConches.Label}"
+					Tooltip: "{$Mods.FastRecall.Config.EnabledForConches.Tooltip}"
+				}
+
+				EnabledForShellphone: {
+					Label: "{$Mods.FastRecall.Config.EnabledForShellphone.Label}"
+					Tooltip: "{$Mods.FastRecall.Config.EnabledForShellphone.Tooltip}"
 				}
 
 				SpeedFactor: {

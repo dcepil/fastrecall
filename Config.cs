@@ -9,6 +9,7 @@ public class Config : ModConfig
     public override ConfigScope Mode => ConfigScope.ServerSide;
 
     [Header("$Mods.FastRecall.Config.Header")]
+
     [DefaultValue(true)]
     [ReloadRequired]
     public bool EnabledForMirrors;
@@ -16,6 +17,14 @@ public class Config : ModConfig
     [DefaultValue(true)]
     [ReloadRequired]
     public bool EnabledForCellphone;
+
+    [DefaultValue(true)]
+    [ReloadRequired]
+    public bool EnabledForConches;
+
+    [DefaultValue(true)]
+    [ReloadRequired]
+    public bool EnabledForShellphone;
 
     [Range(1, 10)]
     [Increment(1)]
